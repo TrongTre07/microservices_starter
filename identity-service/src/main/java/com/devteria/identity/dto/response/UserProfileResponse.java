@@ -1,4 +1,4 @@
-package com.devteria.profile.dto.response;
+package com.devteria.identity.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +13,6 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = lombok.AccessLevel.PRIVATE)
 public class UserProfileResponse {
     String id;
-    String userId;
     String firstName;
     String lastName;
     String dob;
